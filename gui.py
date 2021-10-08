@@ -50,8 +50,7 @@ canvas.create_text(
 print(timeA)
 timeCurrent.set(timeA)
 w = tk.Label(window, textvariable=timeCurrent, background="#BDEB8F", font=("Rubik Regular", 36 * -1)).pack(pady=76)
-#w.pack()
-#canvas.create_text(86.0, 80.0, anchor="nw", text="12:37 AM", fill="#000000", font=("Rubik Regular", 36 * -1))
+
 
 canvas.create_text(
     22.0,
