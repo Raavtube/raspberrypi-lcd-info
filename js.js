@@ -86,14 +86,6 @@ $(function(){
             dow = 6;
         }
 
-        // Mark the active day of the week
-        weekdays.removeClass('active').eq(dow).addClass('active');
-
-        // Set the am/pm text:
-        ampm.text(now[7]+now[8]);
-
-        // Schedule this function to be run again in 1 sec
-        setTimeout(update_time, 1000);
 
     })();
 
